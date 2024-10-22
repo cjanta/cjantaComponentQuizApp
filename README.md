@@ -54,4 +54,4 @@ Unterpunkte sind von mir als relevant sein können eingestuft und aufgeführt
 
 
 ## Use Case simple
-lambda: multi_user -> (front,back,db)
+![lambda: multi_user -> (front,back,db)](usecase_quiz_0_0_1.png)
