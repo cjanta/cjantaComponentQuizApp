@@ -3,9 +3,9 @@ Tutorial CC: python project with d.kramer and course
 
 ## scratch:  
 - source csv with 1200++ questions and answers
-- python to db as backend
-- python to browser as frontend
-- database: To be announced... sqLite, SQL, mongoDB
+- python to db as backend 
+- python to browser as frontend -> vielleicht flusk
+- database:  sqlite3
 - gamification: means achievements, lvls, exp, completion awards, free of
 - modes:    
      - TrivialPursuit,
@@ -19,8 +19,9 @@ Tutorial CC: python project with d.kramer and course
 ## qualities:
 **priority effectivness:** solid preparation to IHK certificate AP-1, AP-2
 ### Die Qualitätskriterien für Software als Produkt nach ISO 9126
-**Folgende Qualitätsmerkmale werden aufgeführt**  
-Unterpunkte sind von mir als relevant sein können eingestuft und aufgeführt
+**Folgende Qualitätsmerkmale werden aufgeführt** 
+
+Unterpunkte brainstorm...
 
 1. Wartbarkeit  
     - Analyse d. Kompenentendokumentation der Entwicklung  
@@ -41,7 +42,6 @@ Unterpunkte sind von mir als relevant sein können eingestuft und aufgeführt
     - Zielführende "gamification"
     - DB Anbindung
     - DSGVO konform
-    - 
 
 5. Übertragbarkeit
     - Komponenten basierte Entwicklung -> workshops entwickeln Teile welche zur finalen App zusammengebaut werden  
@@ -54,4 +54,4 @@ Unterpunkte sind von mir als relevant sein können eingestuft und aufgeführt
 
 
 ## Use Case simple
-![lambda: multi_user -> (front,back,db)](usecase_quiz_0_0_4.png)
+![lambda: multi_user -> (front,back,db)](usecase_quiz_0_0_5.png)
