@@ -1,13 +1,29 @@
 # Quiz App
-Tutorial CC: python project with d.kramer and course 
+Tutorial CC: python Projekt: Kurs d.kramer
 
-## scratch:  
-- source csv with 1200++ questions and answers
-- python to db as backend 
-- python to browser as frontend -> vielleicht flusk
-- database:  sqlite3
-- gamification: means achievements, lvls, exp, completion awards, free of
-- modes:    
+## Kurs
+````
+War einmal ein Bumerang;
+War ein weniges zu lang.
+Bumerang flog ein Stück,
+Aber kam nicht mehr zurück.
+Publikum — noch stundenlang —
+Wartete auf Bumerang.
+````
+
+## Umriss 
+- eine csv mit 1200++ Fragend and richtiger Antworten  
+
+ TODO: wie sieht es mit falschen Antworten aus für multiple choice?
+
+- python django to db as backend 
+- django templates to browser as frontend html, django static css  
+
+TODO: Klären,funktionalität auch python?
+
+- **database**:  sqlite3 integriert in django
+- **gamification**: zielführende zur ihk Fachinformatiker AP-1 motivierende punkte oder levels oder archievements oder Bildungscoin gründen und lösen der Aufgaben mined neue Blidungscoins
+- Quizart?:    
      - TrivialPursuit,
      - Jeopardy,
      - Glücksrad,
@@ -16,12 +32,15 @@ Tutorial CC: python project with d.kramer and course
      - competetive: kings1v1, teams2v2, QuizzWarBands30vs30
 
 
-## qualities:
-**priority effectivness:** solid preparation to IHK certificate AP-1, AP-2
+## Softwarequalitäten:
+````
+Effektivität
+Software soll der soliden Vorbereitung auf Wissensfragen zur IHK zertifizierung AP-1, AP-2 dienlich sein
+````
 ### Die Qualitätskriterien für Software als Produkt nach ISO 9126
 **Folgende Qualitätsmerkmale werden aufgeführt** 
 
-Unterpunkte brainstorm...
+Unterpunkte sind "work in progress"...
 
 1. Wartbarkeit  
     - Analyse d. Kompenentendokumentation der Entwicklung  
@@ -41,7 +60,7 @@ Unterpunkte brainstorm...
     - Anforderungsermittlung mittels usecase Diagrammen
     - Zielführende "gamification"
     - DB Anbindung
-    - DSGVO konform
+    - DSGVO konform -> django
 
 5. Übertragbarkeit
     - Komponenten basierte Entwicklung -> workshops entwickeln Teile welche zur finalen App zusammengebaut werden  

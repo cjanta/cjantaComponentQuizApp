@@ -66,11 +66,18 @@ urlpatterns = [
 
 - python manage.py runserver
 
-Visit http://127.0.0.1:8000/, and you should see the message "Hello, World!"
+Visit  
+http://127.0.0.1:8000/  
+
+and you should see the message "Hello, World!"
 
 ## Step 9: Optional - Explore the admin interface
 
 - python manage.py createsuperuser
 
-Follow the prompts to create a username and password. Then, visit  
- http://127.0.0.1:8000/admin/ and log in with the superuser credentials.
+1. Follow the prompts to create a username and password.
+2. Then, visit  
+
+ http://127.0.0.1:8000/admin/ 
+ 
+ and log in with the superuser credentials.
